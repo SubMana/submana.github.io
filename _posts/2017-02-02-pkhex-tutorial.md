@@ -1,6 +1,7 @@
 ---
-layout: default
-title:  A Post Without Tags
+layout: posts
+title:  "PkHex Tutorial"
+date: 2017-04-04
 tags: tutorials
 ---
 
