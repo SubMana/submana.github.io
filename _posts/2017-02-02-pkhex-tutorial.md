@@ -1,3 +1,9 @@
+---
+layout: default
+title:  A Post Without Tags
+tags: tutorials
+---
+
 ## PkHex Guide: Gaining access to the program, and simple usage tutorial
 
 Hi! This guide assumes you've graduated elementary school at the very least, and have some form of reading comprehension. The first step in using PkHex is gaining access to what's known as 'Homebrew' on your console. This simply requires putting some files on your SD card, and in no way harms your system in the slightest. A much better guide than what I could possibly write can be found here:
