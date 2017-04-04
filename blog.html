@@ -8,7 +8,7 @@ title: Tutorials
 
 	  {% for post in site.posts %}
 		  {% for tag in post.tags %}
-			{% if tag == 'tutorials' %}
+			{% if tag == 'blog' %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 		  {% endfor %}

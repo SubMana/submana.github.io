@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "PkHex Tutorial"
-date: 2017-04-04
+date: 2017-02-02
 tags: tutorials
 ---
 
@@ -45,4 +45,4 @@ Your newly hacked save is now available for use!
 
 Editing trainer data such as gender, money, and other stats (not including genning Pokemon) can get you banned from online services ONLY if you have set up Game Sync on that save file. To get yourself unbanned again, simply import a backup of your save that you hopefully made before you edited it, or erase the save and make a new one. The ban only exists while using the hacked save, and is not permanent in any way.
 
-#### Contact submana@mail.com if any links are broken or you have suggestions for a better tutorial =]
+#### Contact submana@mail.com if any links are broken or you have suggestions for a better tutorial. This post was last edited: 2017/04/04.
