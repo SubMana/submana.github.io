@@ -5,6 +5,10 @@ date: 2017-02-02
 tags: tutorials
 ---
 
+# PREFACE
+
+### This guide may become outdated at some point, so please keep in mind the date that this article was posted. Currently this method does not work on the latest firmware (11.4) as of April 12, 2017. An update to this guide will be posted and linked in this article when a new method becomes available (it shouldn't take long). If your system version is 11.3 or lower, you are still free to follow this guide.
+
 ## PkHex Guide: Gaining access to the program, and simple usage tutorial
 
 Hi! This guide assumes you've graduated elementary school at the very least, and have some form of reading comprehension. The first step in using PkHex is gaining access to what's known as 'Homebrew' on your console. This simply requires putting some files on your SD card, and in no way harms your system in the slightest. A much better guide than what I could possibly write can be found here:
@@ -43,6 +47,6 @@ Your newly hacked save is now available for use!
 
 # WARNING
 
-Editing trainer data such as gender, money, and other stats (not including genning Pokemon) can get you banned from online services ONLY if you have set up Game Sync on that save file. To get yourself unbanned again, simply import a backup of your save that you hopefully made before you edited it, or erase the save and make a new one. The ban only exists while using the hacked save, and is not permanent in any way.
+Editing trainer data such as gender, money, and other stats (not including genning Pokemon) can get you banned from online services ONLY if you have set up Game Sync on that save file. To get yourself unbanned again, simply import a backup of your save that you hopefully made before you edited it, or erase the save and make a new one. The ban only exists while using the hacked save, and is not permanent in any way. Please keep in mind this is only for Pokemon Moon/Sun, XY and OrAs can be edited to your heart's content.
 
-#### Contact submana@mail.com if any links are broken or you have suggestions for a better tutorial. This post was last edited: 2017/04/04.
+#### Contact submana@mail.com if any links are broken or you have suggestions for a better tutorial. This post was last edited: 2017/04/12.
