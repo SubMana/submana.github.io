@@ -5,19 +5,16 @@ date: 2017-11-23
 tags: blog
 ---
 
-###This post is mainly just a test to see how my blog formatting works, and if my coding is any good. Expect actual content sometime in the future.
-
-##Welcome! This is my second journey through Alola, well, half of it, because it took a while before I realised that this series was totally possible.
-I'll be documenting my progress, along with really bad jokes, so I hope it's a great time for everyone.
+### Welcome! This is my second journey through Alola, well, half of it, because it took a while before I realised that this series was totally possible. I'll be documenting my progress, along with really bad jokes, so I hope it's a great time for everyone.
 
 # MOUNT HOKULANI: UTTER DESTRUCTION
 
 We start off our journey with the following team: A lvl 36 Minior, lvl 37 Lurantis, lvl 37 Lopunny, lvl 37 Araquanid, lvl 37 Decidueye, lvl 36 A-marowak. I've already beaten sophocles (and caught Minior), so it's time to clear out the area before I leave.
-![Imgur](https://i.imgur.com/K3Z60z5.png)
+![Imgur](http://i.imgur.com/K3Z60z5.png)
 <sub><sup>Why yes, I am a responsible trainer, and I give the finest of nicknames.</sup></sub>
 
 On my way down, I discover a man standing on a small rock off the side of the mountain, who appears to be practicing his golf swing. How peculiar.
-![Imgur](https://i.imgur.com/Ire4AoD.png)
+![](https://i.imgur.com/Ire4AoD.png)
 <sub><sup>Ah yes, the rare Alolan Mountain Golfer.</sup></sub>
 
 As it turns out, he's actually a trainer, and has decided to battle me with three Minior of his own. Of course, with me being the superior trainer, my Minior is utterly destroyed and Lopunny needs to spam Jump Kick as per usual.
