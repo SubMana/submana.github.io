@@ -2,8 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-
-header li {
-  width:89px;
-  float:left;
-}
+#header li {width:89px; float:left;}
