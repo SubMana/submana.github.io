@@ -20,13 +20,13 @@ var prefixes = ["M'", "Mall ", "Impressive ", "Boop ", "Blarp ", "Snobbish ", "E
 
 var titles = ["Officer", "Cop", "King", "Queen", "Soldier", "Father", "Mother", "Clinton", "Hillary", "Trump", "Kenneth", "Fish", "Lizard", "Giraffe", "Lion", "Idiot", "Moron", "Stupid Head", "Man", "Boogaloo"];
 
-var wildcards = ["Boop", "Blop", "AAAAAAAAAA", "Bop", "Bing", "Bang"];
+var wildcards = ["Boop ", "Blop ", "AAAAAAAAAA ", "Bop ", "Bing ", "Bang "];
 
 function blartMeBabyOneMoreTime() {
 
 
 finalName = names.concat(wildcards)[Math.floor(Math.random() * names.concat(wildcards).length)]
-finalSurname = surnames.concat(wildcards)[Math.floor(Math.random() * surnames.concat(wildcards).length)]
+finalSurname = surnames[Math.floor(Math.random() * surnames.length)]
 finalArticle = articles[Math.floor(Math.random() * articles.length)]
 finalPrefix = prefixes.concat(wildcards)[Math.floor(Math.random() * prefixes.concat(wildcards).length)]
 finalTitle = titles.concat(wildcards)[Math.floor(Math.random() * titles.concat(wildcards).length)]
