@@ -3,15 +3,35 @@ layout: default
 title: Blartinator
 ---
 
-<p>Click the button to Blart it up, baby.</p>
+## Click the button to Blart it up, baby.
 
 <button onclick="blartMeBabyOneMoreTime()">Blartinator</button>
 
 <script>
-var names = ["Paul","Blart","Mart", "Cart", "Kart", "Fart", "Shart", "Wart", "Stark", "Meme", "Ronald", "Donald", "Trump", "Hillary", "Clinton", "Spider", "Kenneth", "Cream", "", "Jake", "Logan", "Dream", "Scream", "Bean", "John", "Glorp", "Troop", "Boop", "Smoop", "Droop", "Team", "Captain", "Lieutenant"];
+var names = ["Paul", "Meme", "Ronald", "Donald", "Trump", "Hillary", "Clinton", "Spider", "Kenneth", "Cream", "Jake", "Logan", "Dream", "Scream", "Bean", "John", "Team", "Captain", "Lieutenant"];
+
+var surnames = ["Paul", "Blart", "Mart", "Cart", "Kart", "Fart", "Shart", "Bart", "Stark"];
+
+var articles = ["", "", "", "", "", "", "the", "a", "featuring", "","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
+
+var prefixes = ["M'", "Impressive", "Boop", "Blarp", "Snobbish", "Evasive", "Aromatic", "Fumbling", "Bumbling", "Freezing", "Mountainous", "Enthusiastic", "Vulgar", "Swanky", "Meme", "Dream", "Cream", "Fever", "Seam", "Team", "Dart", "Fart", "Shart", "Winter", "God", "Father", "President", "Fat", "Lazy", "Funny", "Electric"];
+
+var titles = ["Shark", "Turtle", "King", "Queen", "Soldier", "Father", "Mother", "Clinton", "Hillary", "Trump", "Kenneth", "Fish", "Lizard", "Giraffe", "Lion", "Idiot", "Moron", "Stupid Head", "Man", "Boogaloo"];
+
+var wildcards = ["", "Glorp", "Boop", "Blop", "AAAAAAAAAA", "Smoop", "Bop", "Bing", "Bang", "Stop"];
+
 function blartMeBabyOneMoreTime() {
-document.getElementById("demo").innerHTML = names[Math.floor(Math.random() * names.length)]+" "+names[Math.floor(Math.random() * names.length)]+" - "+names[Math.floor(Math.random() * names.length)]+" "+names[Math.floor(Math.random() * names.length)];
+
+
+finalName = names.concat(wildcards)[Math.floor(Math.random() * names.concat(wildcards).length)]
+finalSurname = surnames.concat(wildcards)[Math.floor(Math.random() * surnames.concat(wildcards).length)]
+finalArticle = articles.concat(wildcards)[Math.floor(Math.random() * articles.concat(wildcards).length)]
+finalPrefix = prefixes.concat(wildcards)[Math.floor(Math.random() * prefixes.concat(wildcards).length)]
+finalTitle = titles.concat(wildcards)[Math.floor(Math.random() * titles.concat(wildcards).length)]
+document.getElementById("demo").innerHTML = finalName+" "+finalSurname+" - "+finalArticle+" "+finalPrefix+" "+finalTitle;
 }
+
+
 </script>
 
 <p id="demo"></p>
