@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to Blart it up, baby.</p>
+
+<button onclick="blartMeBabyOneMoreTime()">Blartinator</button>
+
+<script>
+var names = ["Paul","Blart","Mart", "Cart", "Kart", "Fart", "Shart", "Wart", "Stark", "Meme", "Ronald", "Donald", "Trump", "Hillary", "Clinton", "Spider", "Kenneth", "Cream", "", "Jake", "Logan", "Dream", "Scream", "Bean", "John", "Glorp", "Troop", "Boop", "Smoop", "Droop", "Team", "Captain", "Lieutenant"];
+function blartMeBabyOneMoreTime() {
+document.getElementById("demo").innerHTML = names[Math.floor(Math.random() * names.length)]+" "+names[Math.floor(Math.random() * names.length)]+" - "+names[Math.floor(Math.random() * names.length)]+" "+names[Math.floor(Math.random() * names.length)];
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 
