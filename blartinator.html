@@ -2,19 +2,21 @@
 layout: default
 title: Blartinator
 ---
-
+<p> Have you ever desired to peek into the future? To predict events that a regular person could never anticipate?</p>
+<br></br>
+<p> Well now you can. With this fantastic tool, you can accurately (60% of the time, it works every time) guess what the title of the next Paul Blart: Mall Cop film will be. Without further ado...</p>
 <h2>Click the button to Blart it up, baby.</h2>
 <br></br>
 <button onclick="blartMeBabyOneMoreTime()">Blartinator</button>
 
 <script>
-var names = ["Paul", "Meme", "Ronald", "Donald", "Trump", "Hillary", "Clinton", "Spider", "Kenneth", "Cream", "Jake", "Logan", "Dream", "Scream", "Bean", "John", "Team", "Captain", "Lieutenant"];
+var names = ["Paul ", "Meme ", "Ronald ", "Donald ", "Trump ", "Hillary ", "Clinton ", "Spider ", "Kenneth ", "Cream ", "Jake ", "Logan ", "Dream ", "Scream ", "Bean ", "John ", "Team ", "Captain ", "Lieutenant "];
 
 var surnames = ["Paul", "Blart", "Mart", "Cart", "Kart", "Fart", "Shart", "Bart", "Stark"];
 
-var articles = ["", "", "", "", "", "", "the", "a", "featuring", "","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
+var articles = ["", "", "", "", "", "", "the ", "a ", "featuring ", "","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
 
-var prefixes = ["M'", "Mall", "Impressive", "Boop", "Blarp", "Snobbish", "Evasive", "Aromatic", "Fumbling", "Bumbling", "Freezing", "Mountainous", "Enthusiastic", "Vulgar", "Swanky", "Meme", "Dream", "Cream", "Fever", "Seam", "Team", "Dart", "Fart", "Shart", "Winter", "God", "Father", "President", "Fat", "Lazy", "Funny", "Electric"];
+var prefixes = ["M'", "Mall ", "Impressive ", "Boop ", "Blarp ", "Snobbish ", "Evasive ", "Aromatic ", "Fumbling ", "Bumbling ", "Freezing ", "Mountainous ", "Enthusiastic ", "Vulgar ", "Meme ", "Dream ", "Cream ", "Fever ", "Seam ", "Team ", "Dart ", "Fart ", "Shart ", "Winter ", "God ", "Father ", "Presiden t", "Fat ", "Lazy ", "Funny ", "Electric "];
 
 var titles = ["Officer", "Cop", "King", "Queen", "Soldier", "Father", "Mother", "Clinton", "Hillary", "Trump", "Kenneth", "Fish", "Lizard", "Giraffe", "Lion", "Idiot", "Moron", "Stupid Head", "Man", "Boogaloo"];
 
@@ -28,7 +30,7 @@ finalSurname = surnames.concat(wildcards)[Math.floor(Math.random() * surnames.co
 finalArticle = articles[Math.floor(Math.random() * articles.length)]
 finalPrefix = prefixes.concat(wildcards)[Math.floor(Math.random() * prefixes.concat(wildcards).length)]
 finalTitle = titles.concat(wildcards)[Math.floor(Math.random() * titles.concat(wildcards).length)]
-document.getElementById("demo").innerHTML = finalName+" "+finalSurname+" - "+finalArticle+" "+finalPrefix+" "+finalTitle;
+document.getElementById("demo").innerHTML = finalName+finalSurname+": "+finalArticle+finalPrefix+finalTitle;
 }
 
 
