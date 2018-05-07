@@ -25,7 +25,7 @@ function blartMeBabyOneMoreTime() {
 
 finalName = names.concat(wildcards)[Math.floor(Math.random() * names.concat(wildcards).length)]
 finalSurname = surnames.concat(wildcards)[Math.floor(Math.random() * surnames.concat(wildcards).length)]
-finalArticle = articles.concat(wildcards)[Math.floor(Math.random() * articles.concat(wildcards).length)]
+finalArticle = articles[Math.floor(Math.random() * articles.length)]
 finalPrefix = prefixes.concat(wildcards)[Math.floor(Math.random() * prefixes.concat(wildcards).length)]
 finalTitle = titles.concat(wildcards)[Math.floor(Math.random() * titles.concat(wildcards).length)]
 document.getElementById("demo").innerHTML = finalName+" "+finalSurname+" - "+finalArticle+" "+finalPrefix+" "+finalTitle;
